@@ -1,0 +1,63 @@
+/* TEMPLATE EDITOR STYLES */
+
+.cke_editable [gsedit] {
+	border: 1px solid transparent;
+	min-width: 10px;
+	min-height: 10px;
+}
+
+.cke_editable.highlight-newsman-outlet-buttons [gsedit] {
+	border: 1px dashed #d8d8d8;
+	min-width: 10px;
+	min-height: 10px;
+}
+
+.outlet-buttons,
+.outlet-buttons *,
+.outlet-handle {
+	list-style: none;   
+
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: bold !important;  
+	font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif !important;
+	color: black;
+	font-style: normal !important;
+	text-decoration: none !important;
+
+	background: rgba(80,80,80,0.3);
+	border-radius: 3px;         
+	margin: 0;   
+	color: black !important;
+	z-index: 1000;
+}
+
+.outlet-buttons {
+	position: absolute;	
+	min-height: 20px;		
+	min-width: 20px;
+
+	margin: 0;
+	padding: 3px;
+}
+
+.outlet-buttons li {
+	margin-left: 3px;
+	margin-bottom: 2px;
+	min-width: 50px;
+	word-wrap: none;
+}
+.outlet-buttons li:first-child {
+	margin-left: 0;
+}
+
+.outlet-buttons li {
+	display: inline-block;
+	background: rgba(255,255,255,0.8);
+	border-radius: 3px;
+	padding: 2px 4px;           
+	cursor: pointer !important;
+}
+.outlet-buttons li:hover {
+	background: white;
+}

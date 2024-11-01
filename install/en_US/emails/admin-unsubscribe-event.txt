@@ -1,0 +1,17 @@
+A contact has unsubscribed from your mailing list at [newsman wp="url"]
+--- plain ---
+A contact has unsubscribed from your mailing list. The contact's details are listed below:
+
+[newsman sub="*"]
+
+Reason: 
+$u_reason
+
+--
+[newsman wp="url"]/wp-admin/ -> WPNewsman -> Settings
+--- html ---
+<p>A contact has unsubscribed from your mailing list. The contact's details are listed below:</p>
+<ul>[newsman sub="*" tag="li"]</ul>
+&nbsp;
+<p>--</p>
+<p><a href="[newsman wp='url']/wp-admin/">[newsman wp="url"]/wp-admin/</a> -> WPNewsman -> Settings</p>
